@@ -1,0 +1,8 @@
+
+DB MIGRATIONS
+To run initial revision
+alembic revision --autogenerate -m "initial"
+
+To upgrade to the latest
+alembic upgrade head
+
